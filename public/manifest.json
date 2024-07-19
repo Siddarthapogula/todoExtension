@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 3,
+    "version" : "1.0.0",
+    "name" : "Todo's",
+    "icons" : {
+        "32" : "todos.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions" : [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action" : {"default_popup" : "index.html"}
+}
